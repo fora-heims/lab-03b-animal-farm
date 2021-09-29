@@ -1,5 +1,5 @@
 // import functions and grab DOM elements
-
+const horseImg = document.getElementById('horse-img')
 // initialize global state
 
 // set event listeners 
