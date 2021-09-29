@@ -2,6 +2,7 @@ main img {
     width: 222px;
     margin: 15px;
     border-radius: 10%;
+    border: maroon solid 10px;
 }
 
 body {
@@ -19,4 +20,13 @@ h1 {
 
 main img:hover {
     cursor: pointer;
+    border: magenta solid 10px;
+}
+
+h3 {
+    font-size: 0.9rem;
+}
+
+b {
+color: hmaroon;
 }

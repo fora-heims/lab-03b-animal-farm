@@ -19,3 +19,13 @@ dogImg.addEventListener('click', () => {
 catImg.addEventListener('click', () => {
     catSound.play();
 });
+
+document.addEventListener('keyup', event => {
+    if (event.key === 'c') {
+        catSound.play();
+    } else if (event.key === 'd') {
+        dogSound.play();
+    } else if (event.key === 'h') {
+        horseSound.play();
+    }
+});
