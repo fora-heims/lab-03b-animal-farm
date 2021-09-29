@@ -1,13 +1,12 @@
 main img {
-    width: 30vw;
-    margin: 35px;
+    width: 222px;
+    margin: 15px;
     border-radius: 10%;
 }
 
 body {
     display: flex;
     justify-content: center;
-    flex-direction: column;
 }
 
 * {
@@ -15,7 +14,9 @@ body {
 }
 
 h1 {
-    display: flex;
     font-size: 1.5rem;
-    margin-left: 35px;
+}
+
+main img:hover {
+    cursor: pointer;
 }
