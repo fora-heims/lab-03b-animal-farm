@@ -28,5 +28,22 @@ h3 {
 }
 
 b {
-color: hmaroon;
+color: maroon;
+}
+
+@keyframes animateAnimal {
+    0%{
+      transform: rotateZ(0deg);
+    }
+    50%{
+      transform: rotateZ(180deg);
+    }
+    100%{
+      transform: rotateZ(360deg);
+    }
+}
+
+.animate-animal {
+    animation-duration: 0.8s;
+    animation-name: animateAnimal;
 }
